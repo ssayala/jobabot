@@ -1,0 +1,32 @@
+{
+  "name": "jobabot",
+  "version": "1.0.0",
+  "description": "jobabot - hourly job search facebook bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssayala/jobabot.git"
+  },
+  "keywords": [
+    "bots"
+  ],
+  "author": "Sunil Sayala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssayala/jobabot/issues"
+  },
+  "homepage": "https://github.com/ssayala/jobabot#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "botkit": "^0.2.2",
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
